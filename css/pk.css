@@ -1,0 +1,436 @@
+/* ========= PKS STYLES ======== */
+#loader {
+    top: 300px;
+    position: absolute;
+    left: 50%;
+    font-family: arial;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.eagle_logo {
+    position: absolute;
+    height: 233px;
+    width: 260px;
+    background: url(../img/eagle_logo_lockup.png);
+    z-index: 201;
+}
+
+.show_eagle {
+    display: inherit;
+    top: -10px;
+}
+
+.hide_eagle {
+    top: -300px;
+}
+
+.left {
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    -moz-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+    -moz-transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+}
+
+.right {
+    -moz-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+    -moz-transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+}
+
+.center {
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -moz-transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+    -o-transform-origin: 50% 0;
+    -ms-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+}
+
+/*
+.buy_fixed {
+	position: fixed;
+	bottom: 0px;
+	transition: all 2s;
+	-webkit-transition: all 2s;
+	-moz-transition: all 2s;
+	height: 100px;
+	width: 300px;
+ }
+*/
+/*
+.buy_static {
+	position: fixed;
+	transition: all 2s;
+	-webkit-transition: all 2s;
+	-moz-transition: all 2s;
+	top: 300px; }
+*/
+.buy_button_static_expand {
+    position: fixed;
+    top: 300px;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -o-transition: all 2s;
+}
+
+.buy_button_fixed_contract {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -o-transition: all 2s;
+}
+
+.buy_button_fixed_expanded {
+    position: fixed;
+    bottom: 0;
+    height: 200px;
+    width: 400px;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -o-transition: all 2s;
+}
+
+.hbud_container {
+    border: 1px solid #222;
+    width: 300px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hbud_phone {
+    position: absolute;
+    left: 215px;
+}
+
+/* left:215px; top:-90px is final position */
+.hbud_phone_show {
+    top: -90px;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -o-transition: all 2s;
+}
+
+.hbud_phone_hide {
+    top: -300px;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -o-transition: all 2s;
+}
+
+.header_image_wrapper {
+    margin: 0 auto;
+    border: 1px solid #999;
+}
+
+.header_text_image {
+    opacity: 0;
+    width: 50%;
+    height: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+#header_intro_wrapper {
+    width: 631px;
+/*dimensions of image*/
+    height: 51px;
+}
+
+#header_savings_wrapper {
+    width: 639px;
+/*dimensions of image*/
+    height: 174px;
+}
+
+#header_no-catch_wrapper {
+    width: 716px;
+/*dimensions of image*/
+    height: 100px;
+}
+
+#header_customer-reviews_wrapper {
+    width: 617px;
+/*dimensions of image*/
+    height: 113px;
+}
+
+#header_about_wrapper {
+    width: 670px;
+/*dimensions of image*/
+    height: 220px;
+}
+
+#how_in_the_heck {
+    width: 273px;
+    float: left;
+    padding: 60px 0 0;
+    z-index: 2;
+    position: relative;
+}
+
+.how_wrapper {width:273px; height:92px;}
+.how {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.in_the_heck {
+    padding-left: 10px;
+    opacity: 0;
+    width: 249px;
+    height: 42px;
+}
+
+#and_type {
+    width: 182px;
+    height: 199px;
+    float: left;
+    margin-left: -15px;
+    padding-top: 20px;
+    z-index: 0;
+    position: relative;
+}
+
+#who_in_tarnation {
+    width: 269px;
+    float: left;
+    padding: 60px 0 0;
+    margin-left: -45px;
+    z-index: 2;
+    position: relative;
+}
+
+.who_wrapper {width:269px; height:92px;}
+
+.who {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+.in_tarnation {
+    opacity: 0;
+    width: 230px;
+    height: 39px;
+    display: block;
+    margin: 0 auto;
+}
+
+#header_conclusion_wrapper {
+    width: 492px;
+/*dimensions of image*/
+    height: 108px;
+}
+
+#savings_arrow_wrapper {
+    border: 1px solid;
+    display: block;
+    width: 166px;
+    height: 123px;
+    position: absolute;
+    left: 200px;
+}
+
+/* CALCULATOR */
+#calculator_wrapper {
+    background: #999;
+    display: block;
+    position: relative;
+    left: 400px;
+    width: 410px;
+}
+
+#calculator {
+    position: relative;
+}
+
+#monthly_response_wrapper p {
+    line-height: 20px;
+}
+
+p {
+    font-family: arial;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+input {
+    width: 376px;
+    padding: 0 12px;
+}
+
+.clear {
+    clear: both;
+}
+
+#answer_bar {
+    width: 400px;
+    height: 80px;
+    border: 1px solid #222;
+    overflow: hidden;
+}
+
+#money_bag_wrapper {
+    position: absolute;
+    top: 0;
+    display: block;
+    height: 80px;
+    padding: 0;
+}
+
+.money_bag {
+    background: green;
+    height: 80px;
+    width: 75px;
+    float: left;
+    margin-left: 4px;
+    position: relative;
+    top: -100px;
+}
+
+.opaque {
+    opacity: 1;
+}
+
+.transparent {
+    opacity: 0;
+}
+
+.answer_bar {
+    text-align: center;
+}
+
+#total_savings_wrapper {
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+}
+
+.dollar_sign {
+    position: absolute;
+    left: 3px;
+    padding: 2px;
+}
+
+/* SLIDER */
+.slider {
+    width: 750px;
+    height: 220px;
+    border: 1px solid #999;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.slider li {
+    text-decoration: none;
+    list-style-type: none;
+    position: absolute;
+    transition: all 2s;
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -o-transition: all 2s;
+    margin: 0;
+    padding: 0;
+}
+
+.firstactive {
+    top: 0;
+    opacity: 1;
+}
+
+.firstwaiting {
+    top: 420px;
+    opacity: 0;
+}
+
+.secondactive {
+    top: 0;
+    opacity: 1;
+}
+
+.secondwaiting {
+    top: -420px;
+    opacity: 0;
+}
+
+.slider .quote {
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 25px;
+    font-size: 25px;
+}
+
+.author_wrapper {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.testimonial_arrow {
+    height: 20px;
+    width: 20px;
+    background: #222;
+}
+
+.testimonial_facebook {
+    height: 20px;
+    width: 20px;
+    background: #222;
+}
+
+.clear {
+    clear: both;
+}
+
+/* END SLIDER */
+/* ------------- MEDIA QUERIES ---------------- */
+/* iPad Specific */
+@media screen and max-width 1024px and min-width768px {
+    /* 	.header_text_image{
+        		opacity:1; 
+        		width:100%; 
+        		height:100%; 
+        		display:block; 
+        		margin: 0 auto;
+        	} */
+    
+
+}
+
+/* ========= END PKS STYLES ======== */

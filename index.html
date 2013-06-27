@@ -1,0 +1,375 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Republic Wireless</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/pk.css" rel="stylesheet" type="text/css" />
+		<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+<!-- 		<script src="js/scroll.js"></script> -->
+  </head>
+  
+  <body>
+	<div id = "loader">LOADER</div>
+    <!-- header -->
+    <div class="header">
+	    <!-- EAGLE HOVER AND AUDIO -->
+	    <div class="eagle_logo hide_eagle"></div>
+		<audio id = "eagle_screech-1" preload="auto">
+			<source src = "audio/fact.mp3"></source>
+			<source src = "audio/fact.ogg"></source>
+		</audio>
+		<audio id = "eagle_screech-2" preload="auto">
+			<source src = "audio/lion.mp3"></source>
+			<source src = "audio/lion.ogg"></source>
+		</audio>
+		<audio id = "eagle_screech-3" preload="auto">
+			<source src = "audio/rrr.mp3"></source>
+			<source src = "audio/rrr.ogg"></source>		
+		</audio>
+		<audio id = "eagle_screech-4" preload="auto">
+			<source src = "audio/woo.mp3"></source>
+			<source src = "audio/woo.ogg"></source>		
+		</audio>
+    </div><!--/header-->
+
+    <div class="nav">
+      <ul>
+        <li><a href="#scroll-sect1">intro</a></li>
+        <li><a href="#scroll-sect2">savings</a></li>
+        <li><a href="#scroll-sect3">there is no catch</a></li>
+        <li><a href="#scroll-sect4">customer reviews</a></li>
+        <li><a href="#scroll-sect5">about these folks</a></li>
+        <li><a href="#scroll-sect6">conclusion</a></li>
+    </div>
+
+    <div class="sticky-box shrink">
+	    <div class="sticky-content shrink">
+	      <a href="#">
+	        <span>$19 a Month, Unlimited Data & Text on the $199 Motorola DEFY XT</span>
+	        <span class="button">Buy Now</span>
+	      </a>
+	    </div>
+    </div><!--/sticky-box-->
+
+    <!-- scrollable content -->
+    <div class="full-width">
+
+      <div class="showStopper">
+        <div class="videoWrapper">
+      <h3><span id="scroll-sect0"></span>top of page</h3>
+          <div>
+            <!--[if IE]>
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="480" height="295">
+              <param name="movie" value="http://www.youtube.com/v/dFVxGRekRSg&amp;hl=en&amp;fs=1&amp;showinfo=0" />
+              <![endif]-->
+            <!--[if !IE]>-->
+            <object type="application/x-shockwave-flash" data="http://www.youtube.com/v/dFVxGRekRSg&amp;hl=en&amp;fs=1&amp;showinfo=0" width="560" height="315">
+              <!--<![endif]-->
+              <param name="quality" value="high" />
+              <param name="wmode" value="opaque" />
+              <p><a href="http://www.adobe.com/go/getflashplayer"><img alt="Get Adobe Flash player" src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif"/></a></p>
+            </object>
+          </div>
+        </div><!--/videoWrapper-->
+      </div><!--/showstopper-->
+
+      <!--section ZERO-->
+      <div class="max-width watermark">
+        <div class="section">
+         <div class = "hbud_container">
+	         <img class = "hbud_phone hbud_phone_hide" src = "img/hBud_phone.png" />
+	         <img class = "hbud" src = "img/hBud.png" />
+         </div>
+
+
+          <!--section ONE-->
+          <div class="divider"><img src="img/header-sect1.png" alt=""/></div> 
+          <h3><span id="scroll-sect1"></span>Introduction</h3>
+			
+			<!-- HEADER IMAGE -->	
+    		<div id = "header_intro_wrapper" class = "header_image_wrapper">
+    			<img id ="header_intro" class = "header_text_image" src = "img/header_intro.png" />
+    		</div>
+        
+        </div><!--/section-->
+      </div><!--/max-width-->
+
+    
+      <!--section TWO-->
+      <div class="max-width">
+        <div class="divider"><img src="img/header-sect2.png" alt=""/></div> 
+        <h3><span id="scroll-sect2"></span>Savings</h3>   
+        <div class="section">
+			
+			<!-- HEADER IMAGE -->	
+    		<div id = "header_savings_wrapper" class = "header_image_wrapper">
+    			<img id ="header_savings" class = "header_text_image" src = "img/header_savings.png" />
+    		</div>
+		    
+			<div id = "savings_arrow_wrapper"><img id = "savings_arrow" src = "img/savings_arrow.png"/></div>
+        
+          	<!-- CALCULATOR -->
+			<div id = "calculator_wrapper" class = "fade_in">
+				<form id="calculator" method="post">
+				    <div id="answer_bar">
+				        <div id="monthly_response_wrapper">
+				            <p class="answer_bar" id="monthly_response_small">Yikes!</p>
+				            <p class="answer_bar" id="monthly_response_large">Really, that much?</p>
+				            <p class="answer_bar" id="phone_response">Ouch.</p>
+				            <p id="less_than_zero_savings">Sounds like you've got a pretty good deal already!</p>
+				            <p class="answer_bar" id="final_savings">You'll Save <span id="total_savings_wrapper">$<span id="total_savings">0</span></span>your first year by switching to Republic Wireless.</p>
+				        </div>
+				        <div id="money_bag_wrapper">
+				            <div id="money_bag_1" class="money_bag"></div>
+				            <div id="money_bag_2" class="money_bag"></div>
+				            <div id="money_bag_3" class="money_bag"></div>
+				            <div id="money_bag_4" class="money_bag"></div>
+				            <div id="money_bag_5" class="money_bag"></div>
+				        </div>
+				    </div>
+				    <div class="clear"></div> <span class="dollar_sign one">$</span>
+				
+				    <input class="required" name="current_monthly_cost" id="current_monthly_cost" placeholder="What's your monthly cell phone bill? " /> <span class="hint_text one">Numbers only!</span>
+				
+				    <div class="clear"></div> <span class="dollar_sign two">$</span>
+				
+				    <input class="required" name="current_phone_cost" id="current_phone_cost" placeholder="How much did you pay for your phone? " /> <span class="hint_text two">Numbers only!</span>
+				
+				    <p>How many lines do you have?
+				        <select class="span2 number_of_lines">
+				            <option>1</option>
+				            <option>2</option>
+				            <option>3</option>
+				            <option>4</option>
+				        </select>
+				    </p>
+				    <p id="calculate">
+				        <input type="submit" value="calculate Savings" class="">
+				    </p>
+				
+				    <p id="total_yearly_cost">Total Yearly <span class="carrier"></span> Cost: $<span id="current_yearly_cost">0</span>
+				
+				    </p>
+				    <p id="rw_yearly_cost">Republic Wireless Yearly Cost for <span class="lines"></span> lines: $<span class="republic_cost">477</span>
+				
+				    </p>
+				</form> 
+			</div>
+			<!--END CALCULATOR-->       
+			
+		</div><!--/section-->
+      </div><!--/max-width-->
+
+      <!--section THREE-->
+      <div class="max-width">
+        <div class="divider"><img src="img/header-sect3.png" alt=""/></div> 
+        <h3><span id="scroll-sect3"></span>There is No Catch</h3>   
+        <div class="section">
+			
+			<!-- HEADER IMAGE -->	
+    		<div id = "header_no-catch_wrapper" class = "header_image_wrapper">
+    			<img id ="header_no-catch" class = "header_text_image" src = "img/header_no-catch.png" />
+    		</div>
+        
+        </div><!--/section-->
+      </div><!--/max-width-->
+
+      <!--section FOUR-->
+      <div class="max-width">
+        <div class="divider"><img src="img/header-sect4.png" alt=""/></div> 
+        <h3><span id="scroll-sect4"></span>Customer Reviews</h3>   
+        <div class="section">
+          <a name="four"></a>
+			
+			<!-- HEADER IMAGE -->	
+    		<div id = "header_customer-reviews_wrapper" class = "header_image_wrapper">
+    			<img id ="header_customer-reviews" class = "header_text_image" src = "img/header_customer-reviews.png" />
+    		</div>
+    		
+    		<!--TEXT SLIDER-->
+			<ul class="slider" id="slider_one">
+			    <li class="firstwaiting">
+			        <p class = "quote">"Great business model, and a welcome disruption of the status-quo of the cellular industry"</p>
+			        <div class = "author_wrapper">
+			        	<p class = "author">-Brett Groneman, Saratoga Springs, UT</p>
+				        <div class = "testimonial_arrow"></div>
+				        <div class = "testimonial_facebook"></div>
+				        <p class = "thanks">Thanks, Brett.</p>
+			        </div>
+			    </li>
+			    <li class="firstwaiting">
+			        <p class = "quote">"republic wireless customer support rocks"</p>
+			        <div class = "author_wrapper">
+			        	<p class = "author">-Brett Groneman, Saratoga Springs, UT</p>
+				        <div class = "testimonial_arrow"></div>
+				        <div class = "testimonial_facebook"></div>
+				        <p class = "thanks">Thanks, Brett.</p>
+			        </div>
+			    </li>
+			    <li class="firstwaiting">
+			        <p class = "quote">"good job rw. thank you for proving to america that lower cost doesn't mean compromise or reduced service"</p>
+			        <div class = "author_wrapper">
+			        	<p class = "author">-Brett Groneman, Saratoga Springs, UT</p>
+				        <div class = "testimonial_arrow"></div>
+				        <div class = "testimonial_facebook"></div>
+				        <p class = "thanks">Thanks, Brett.</p>
+			        </div>
+			    </li>
+			</ul>
+			<ul class="slider" id="slider_two">
+			    <li class="secondwaiting">
+			        <p class = "quote">"Great business model, and a welcome disruption of the status-quo of the cellular industry"</p>
+			        <div class = "author_wrapper">
+			        	<p class = "author">-Brett Groneman, Saratoga Springs, UT</p>
+				        <div class = "testimonial_arrow"></div>
+				        <div class = "testimonial_facebook"></div>
+				        <p class = "thanks">Thanks, Brett.</p>
+			        </div>
+			    </li>
+			    <li class="secondwaiting">
+			        <p class = "quote">"republic wireless customer support rocks"</p>
+			        <div class = "author_wrapper">
+			        	<p class = "author">-Brett Groneman, Saratoga Springs, UT</p>
+				        <div class = "testimonial_arrow"></div>
+				        <div class = "testimonial_facebook"></div>
+				        <p class = "thanks">Thanks, Brett.</p>
+			        </div>
+			    </li>
+			    <li class="secondwaiting">
+			        <p class = "quote">"good job rw. thank you for proving to america that lower cost doesn't mean compromise or reduced service"</p>
+			        <div class = "author_wrapper">
+			        	<p class = "author">-Brett Groneman, Saratoga Springs, UT</p>
+				        <div class = "testimonial_arrow"></div>
+				        <div class = "testimonial_facebook"></div>
+				        <p class = "thanks">Thanks, Brett.</p>
+			        </div>
+			    </li>
+			</ul>
+			<ul class="slider" id="slider_three">
+			    <li class="firstwaiting">
+			        <p class = "quote">"Great business model, and a welcome disruption of the status-quo of the cellular industry"</p>
+			        <div class = "author_wrapper">
+			        	<p class = "author">-Brett Groneman, Saratoga Springs, UT</p>
+				        <div class = "testimonial_arrow"></div>
+				        <div class = "testimonial_facebook"></div>
+				        <p class = "thanks">Thanks, Brett.</p>
+			        </div>
+			    </li>
+			    <li class="firstwaiting">
+			        <p class = "quote">"republic wireless customer support rocks"</p>
+			        <div class = "author_wrapper">
+			        	<p class = "author">-Brett Groneman, Saratoga Springs, UT</p>
+				        <div class = "testimonial_arrow"></div>
+				        <div class = "testimonial_facebook"></div>
+				        <p class = "thanks">Thanks, Brett.</p>
+			        </div>
+			    </li>
+			    <li class="firstwaiting">
+			        <p class = "quote">"good job rw. thank you for proving to america that lower cost doesn't mean compromise or reduced service"</p>
+			        <div class = "author_wrapper">
+			        	<p class = "author">-Brett Groneman, Saratoga Springs, UT</p>
+				        <div class = "testimonial_arrow"></div>
+				        <div class = "testimonial_facebook"></div>
+				        <p class = "thanks">Thanks, Brett.</p>
+			        </div>
+			    </li>
+			</ul>
+			<ul class="slider" id="slider_four">
+			    <li class="secondwaiting">
+			        <p class = "quote">"Great business model, and a welcome disruption of the status-quo of the cellular industry"</p>
+			        <div class = "author_wrapper">
+			        	<p class = "author">-Brett Groneman, Saratoga Springs, UT</p>
+				        <div class = "testimonial_arrow"></div>
+				        <div class = "testimonial_facebook"></div>
+				        <p class = "thanks">Thanks, Brett.</p>
+			        </div>
+			    </li>
+			    <li class="secondwaiting">
+			        <p class = "quote">"republic wireless customer support rocks"</p>
+			        <div class = "author_wrapper">
+			        	<p class = "author">-Brett Groneman, Saratoga Springs, UT</p>
+				        <div class = "testimonial_arrow"></div>
+				        <div class = "testimonial_facebook"></div>
+				        <p class = "thanks">Thanks, Brett.</p>
+			        </div>
+			    </li>
+			    <li class="secondwaiting">
+			        <p class = "quote">"good job rw. thank you for proving to america that lower cost doesn't mean compromise or reduced service"</p>
+			        <div class = "author_wrapper">
+			        	<p class = "author">-Brett Groneman, Saratoga Springs, UT</p>
+				        <div class = "testimonial_arrow"></div>
+				        <div class = "testimonial_facebook"></div>
+				        <p class = "thanks">Thanks, Brett.</p>
+			        </div>
+			    </li>
+			</ul>   
+			<!--END TEXT SLIDER-->
+			
+			     
+        </div><!--/section-->
+      </div><!--/max-width-->
+
+      <!--section FIVE-->
+      <div class="max-width">
+        <div class="divider"><img src="img/header-sect5.png" alt=""/></div> 
+        <h3><span id="scroll-sect5"></span>About These Folks</h3>   
+        <div class="section">
+          <a name="five"></a>
+			
+			<!-- HEADER IMAGE -->	
+    		<div id = "header_about_wrapper" class = "header_image_wrapper">
+			    <div id = "how_in_the_heck">
+			    	<div class = "how_wrapper">
+				    	<img class = "how" src = "img/header_about_how.png" />
+			    	</div>
+			    	<img class = "in_the_heck" src = "img/header_about_how-in-the-heck.png" />
+			    </div>		
+			    <div id = "and_type"><img class = "and_type" src = "img/header_about_and.png" /></div>
+			    <div id = "who_in_tarnation">
+			    	<div class = "who_wrapper">
+			    		<img class ="who" src = "img/header_about_who.png" />
+			    	</div>
+					<img class = "in_tarnation" src = "img/header_about_in-tarnation.png" />
+				</div>
+    		</div>
+        
+        </div><!--/section-->
+      </div><!--/max-width-->
+
+      <!--section SIX-->
+      <div class="max-width watermark">
+        <div class="divider"><img src="img/header-sect6.png" alt=""/></div> 
+        <h3><span id="scroll-sect6"></span>Conclusion</h3>   
+        <div class="section">
+          <a name="six"></a>
+			
+			<!-- HEADER IMAGE -->	
+    		<div id = "header_conclusion_wrapper" class = "header_image_wrapper">
+    			<img id ="header_conclusion" class = "header_text_image" src = "img/header_conclusion.png" />
+    		</div>
+        
+        </div><!--/section-->
+      </div><!--/max-width-->
+
+      <span class="backtotop">
+        <a class = "back_to_top" href="#scroll-sect0">
+          <img class="arrow" src="img/btt-arrow.png" alt="">
+          <img src="img/btt-text.png" alt="Back to top">
+        </a>
+    </div><!--/full-width-->
+
+
+
+
+    <!-- typekit -->
+    <script type="text/javascript" src="//use.typekit.net/yez2nxl.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <!-- fonts dot com -->
+    <script type="text/javascript" src="http://fast.fonts.com/jsapi/79006025-0ea1-4530-a1d5-039e89590b41.js"></script>
+    <script type ="text/javascript" src = "js/plugins/jquery.easing.min.js"></script>
+    <script type ="text/javascript" src = "js/plugins/jquery.scrollTo-1.4.3.1.min.js"></script>
+    <script type="text/javascript" src="js/plugins/TweenMax.min.js"></script>
+    <script type ="text/javascript" src = "js/main.js"></script>
+  </body>
+</html>

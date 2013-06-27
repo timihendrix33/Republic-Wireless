@@ -1,0 +1,219 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*------------------------------------------------------------------------------------------------------------
+    $VARIABLES + MIXINS
+  ------------------------------------------------------------------------------------------------------------*/
+/* z-index */
+/*------------------------------------------------------------------------------------------------------------
+    $MAIN STYLES
+  ------------------------------------------------------------------------------------------------------------*/
+/* core */
+body {
+  background: url(../img/textured-paper.jpg) 0 0 repeat;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; }
+
+a {
+  text-decoration: none; }
+
+/*------------------------------------------------------------------------------------------------------------
+    $HEADER  
+  ------------------------------------------------------------------------------------------------------------*/
+.header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  background: url(../img/textured-paper.jpg) 0 0 repeat;
+  z-index: 101; }
+
+.nav {
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 80px;
+  background: #38a926;
+  z-index: 100;
+  -webkit-box-shadow: 0 3px 2px -2px black;
+  -moz-box-shadow: 0 3px 2px -2px black;
+  box-shadow: 0 3px 2px -2px black; }
+
+.nav ul {
+  width: 960px;
+  margin: 0 auto; }
+
+.nav li {
+  float: left;
+  margin-left: 50px; }
+
+.nav li:first-child {
+  margin-left: 0; }
+
+.nav li a {
+  color: #fff;
+  line-height: 40px; }
+
+/*------------------------------------------------------------------------------------------------------------
+    $SIGN ME UP BOX  
+  ------------------------------------------------------------------------------------------------------------*/
+.sticky-box, .sticky-content {
+  width: 260px;
+  height: 200px;
+  position: fixed;
+  top: 300px;
+  right: 0;
+  z-index: 100; }
+
+.sticky-box {
+  background: #38a926;
+  opacity: .9;
+  z-index: 100;
+  -webkit-border-radius: 25px 0 0 25px;
+  border-radius: 25px 0 0 25px; }
+
+.sticky-content a {
+  display: block;
+  width: 260px;
+  height: 200px; }
+
+.sticky-content span {
+  display: block;
+  height: 120px;
+  background: url(../img/copy-buy.png) 0 0 no-repeat;
+  text-indent: -9999px; }
+
+.sticky-content span.button {
+  width: 150px;
+  height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url(../img/button-buy.png) 0 0 no-repeat; }
+
+.sticky-content a:hover span.button {
+  background-position: 0 -55px; }
+
+/*------------------------------------------------------------------------------------------------------------
+    $SCROLLABLE AREA  
+  ------------------------------------------------------------------------------------------------------------*/
+/* VIDEO SECTION */
+.showStopper {
+  width: 100%;
+  min-width: 960px;
+  max-height: 675px;
+  background: black; }
+
+.videoWrapper {
+  position: relative;
+  max-width: 1200px;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.videoWrapper div,
+.videoWrapper object {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-height: 675px; }
+
+/* NON-VIDEO SECTIONS */
+.full-width {
+  width: 100%;
+  background: url(../img/textured-paper.jpg) 0 0 repeat;
+  margin-top: 120px; }
+
+.max-width {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1400px; }
+
+.max-width.watermark {
+  background: url(../img/seal.jpg) center 40px no-repeat; }
+
+.section {
+  width: 960px;
+  margin: 0 auto;
+  /*kill the following*/
+  min-height: 900px; }
+
+h3 {
+  position: relative;
+  top: -170px;
+  visibility: hidden; }
+
+/* needed to account for scroll-to and fixed header */
+.divider {
+  width: 100%;
+  height: 45px;
+  background: url(../img/paper-seam.png) 0 8px no-repeat; }
+
+.divider img {
+  display: block;
+  margin: auto; }
+
+.backtotop {
+  display: block;
+  width: 250px;
+  margin: 30px auto 50px; }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
