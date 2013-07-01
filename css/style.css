@@ -150,7 +150,7 @@ a {
   position: relative;
   max-width: 1200px;
   padding-bottom: 56.25%;
-  padding-top: 25px;
+  padding-top: 0;
   margin-left: auto;
   margin-right: auto; }
 
@@ -174,7 +174,7 @@ a {
   margin: 0 auto;
   max-width: 1400px; }
 
-.max-width.watermark {
+.section.watermark {
   background: url(../img/seal.jpg) center 40px no-repeat; }
 
 .section {
